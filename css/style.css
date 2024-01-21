@@ -12,6 +12,7 @@ main {
 
 a {
     text-decoration: none;
+    color: #1f2232;
 }
 
 a:visited {
@@ -43,20 +44,13 @@ a:visited {
     margin: 10px 0;
 }
 
-.nav_links li:hover {
-    color: #397367;
-    font-weight: bold;
-}
-
 #home {
-    color: #397367;
+    color: #EEA243;
     font-weight: bold;
 }
 
-#home:hover {
-    background-color: inherit;
-    color: inherit;
-    font-weight: inherit;
+.nav_links a:hover {
+    color: #397367;
 }
 
 body>header {
